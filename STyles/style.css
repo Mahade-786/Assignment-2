@@ -203,6 +203,7 @@ header {
 }
 
 /* change habit style */
+
 .habit-container {
     margin-top: 100px;
 }
@@ -250,6 +251,7 @@ header {
 }
 
 /* run extra style */
+
 .extra-container {
     box-sizing: border-box;
     border-radius: 18px;
@@ -311,6 +313,7 @@ header {
 }
 
 /* bmi calculator part 2 style */
+
 .bmi2 {
     margin-top: 88px;
     background: rgb(34, 34, 34);
@@ -407,6 +410,7 @@ select option {
 }
 
 /* our team section style */
+
 .team-container{
     margin-top: 88px;
 }
@@ -493,6 +497,7 @@ select option {
 }
 
 /* our plan section style */
+
 .plan-container{
     margin-top: 88px;
 }
@@ -660,7 +665,7 @@ hr{
         grid-template-columns: repeat(1, 1fr);
         row-gap: 35px;
     }
-    
+
     .extra-container {
         padding-left: 30px;
     }
