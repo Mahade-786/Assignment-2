@@ -1,0 +1,101 @@
+
+/* universal style */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: black;
+    box-sizing: border-box;
+}
+
+/* fonts */
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+.miama-font {
+    font-family: 'Miama', sans-serif;
+    font-size: 10rem;
+    font-weight: 400;
+    line-height: 50%;
+}
+
+/* Fixed attributes */
+.width-primary {
+    width: calc(100% - 13%);
+    margin: 0 auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+/* colors*/
+.color-orange-text {
+    color: rgb(230, 83, 60);
+}
+
+.color-orange-bg {
+    background-color: rgb(230, 83, 60);
+}
+
+.color-primary {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* nav section style */
+header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0.1) 100%);
+}
+
+.fitness-container {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.fitness-container ul {
+    justify-content: space-evenly;
+}
+
+.fitness-container ul li {
+    list-style: none;
+    margin: 0 20px;
+    padding: 8px 15px;
+}
+
+.fitness-container ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.fitness-container nav ul {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 4px;
+}
+
+.fitness-container .header {
+    font-weight: 800;
+    font-size: 2.25rem;
+    font-style: italic;
+}
+
+.fitness-container ul .home {
+    border-radius: 45px;
+}
+
+.fitness-container i {
+    display: none;
+}
+
+.fa-solid {
+    color: white;
+    font-size: 1.56rem;
+}
