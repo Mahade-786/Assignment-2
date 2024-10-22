@@ -1,5 +1,5 @@
 
-/* universal style */
+/* universal styles */
 
 * {
     padding: 0;
@@ -11,7 +11,7 @@ body {
     box-sizing: border-box;
 }
 
-/* fonts */
+/* fonts styles */
 
 .inter-font {
     font-family: "Inter", sans-serif;
@@ -26,6 +26,7 @@ body {
 }
 
 /* Fixed attributes */
+
 .width-primary {
     width: calc(100% - 13%);
     margin: 0 auto;
@@ -36,6 +37,7 @@ body {
 }
 
 /* colors*/
+
 .color-orange-text {
     color: rgb(230, 83, 60);
 }
@@ -49,6 +51,7 @@ body {
 }
 
 /* nav section style */
+
 header {
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0.1) 100%);
 }
@@ -541,3 +544,165 @@ select option {
 .popular .popular-text{
     font-weight: 600;
 }
+
+/* footer style */
+.footer{
+    margin-top: 88px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 66px 0px;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+.footer-brand .title{
+    font-size: 4.375rem;
+    font-weight: 800;
+    font-style: italic;
+}
+.footer-brand .description{
+    font-size: 0.875rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.footer-about .title{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+.footer-about li{
+    font-size: 1.5rem; 
+    list-style: none; 
+    margin-bottom: 20px;
+}
+.footer-about a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+
+}
+.hr{
+    margin-top: 79px;
+    margin-bottom: 36px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 35px;
+
+}
+
+/* Rsponsive Area */
+
+/* Small device style */
+
+@media screen and (max-width: 576px) {
+
+    .fitness-container nav {
+        display: none;
+    }
+
+    .fitness-container i {
+        display: flex;
+    }
+
+    .banner-container,
+    .extra-container,
+    .bmi-container {
+        flex-direction: column;
+    }
+
+    .banner-title {
+        font-size: 2.25rem;
+    }
+
+    .miama-font {
+        font-size: 5rem;
+    }
+
+    .btn-primary {
+        width: 150px;
+        font-size: 1rem;
+    }
+
+    .btn-secondary {
+        width: 150px;
+        font-size: 1rem;
+    }
+
+    .position-notification-1 {
+        position: absolute;
+        transform: scale(0.8);
+        right: 0%;
+        top: 9%;
+    }
+
+    .position-notification-2 {
+        position: absolute;
+        left: 0%;
+        bottom: 42%;
+    }
+
+    .habit-container {
+        margin-top: 0;
+    }
+
+    .habit-title {
+        font-size: 2rem;
+    }
+
+    .habit-img-card-container {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 35px;
+    }
+    
+    .extra-container {
+        padding-left: 30px;
+    }
+    .extra-text-container{
+        width: 100%;
+    }
+    .extra-img-container {
+        width: 100%;
+        height: 170px;
+    }
+    .extra-img-container .image {
+        transform: scale(0.3);
+        position:absolute;
+        left: -120px;
+        top: -35px;
+    }
+
+    .extra-text-container .btn-primary {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .bmi-text-container {
+        width: calc(100% - 13%);
+    }
+
+    .calculator {
+        margin-top: 34px;
+        width: 100%;
+    }
+    .calculator .btn-primary {
+        width: 60%;
+    }
+    .team-img-container{
+        grid-template-columns: auto;
+    }
+    .footer-container{
+      grid-template-columns: auto;
+    }
+    .plan-card-container{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+}
+
+
