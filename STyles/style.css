@@ -99,3 +99,103 @@ header {
     color: white;
     font-size: 1.56rem;
 }
+
+/*Banner section style  */
+
+.banner-container {
+    align-items: center;
+    margin-top: 32px;
+    justify-content: space-between;
+}
+
+.banner-title {
+    font-size: 4.88rem;
+    color: white;
+    font-weight: 900;
+
+}
+
+.banner-description {
+    font-weight: 400;
+    margin: 28px 0;
+}
+
+.btn-primary {
+    border-radius: 42px;
+    width: 224px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: white;
+    border: none;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    border-radius: 42px;
+    width: 224px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.banner-img-container {
+    position: relative;
+    margin-left: 50px;
+}
+
+.notification-btn {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+.position-notification-1 {
+    position: absolute;
+    right: -8%;
+    top: 20%;
+}
+
+.position-notification-2 {
+    position: absolute;
+    left: -20%;
+    bottom: 13%;
+}
+
+.banner-img-container .circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 12px;
+    position: relative;
+    top: 7px;
+}
+
+.notification2 {
+    align-items: center;
+}
+
+.notification-tile1 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.notification-tile2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
